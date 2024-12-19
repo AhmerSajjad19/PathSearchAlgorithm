@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f7f9fc;
+}
+
+h1 {
+  text-align: center;
+  color: #225AEA;
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.controls {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+select, button, input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.graph-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+svg {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: black;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.node text {
+  font-size: 12px;
+  fill: #000;
+  pointer-events: none;
+}
+
+.link {
+  stroke: #aaa;
+  stroke-width: 2px;
+}
+
+.highlight {
+  fill: orange !important;
+  transition: all 0.3s ease;
+}
+
+.highlight-link {
+  stroke: orange !important;
+  stroke-width: 4px;
+  transition: all 0.3s ease;
+}
+
+.cost {
+  font-size: 12px;
+  fill: #555;
+}
